@@ -13,7 +13,7 @@ export default createGlobalStyle`
     background-color: #FAFBFF;
     min-height: 100vh;
   }
-  button {
+  button, a {
     cursor: pointer;
   }
 `;

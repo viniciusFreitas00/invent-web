@@ -1,12 +1,28 @@
 import React from "react";
-import { Container } from "./style";
+import { useHistory } from "react-router-dom";
 
-const Dashboard = () => {
+import { Container } from "./style";
+import image from "../../assets/images/image.jpeg";
+
+const Login = () => {
+  const history = useHistory();
+
+  const handleLoginSubmit = () => {
+    history.push("/home");
+  };
+
   return (
     <Container>
-      <h1>teste 01</h1>
+      <div>
+        <img src={image} alt="company logo" />
+        <div>
+          <input type="text" placeholder="E-mail" />
+          <input type="password" placeholder="Senha" />
+        </div>
+        <a onClick={handleLoginSubmit}>Login</a>
+      </div>
     </Container>
   );
 };
 
-export default Dashboard;
+export default Login;
