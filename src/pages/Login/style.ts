@@ -31,16 +31,17 @@ export const Container = styled.div`
       font-size: 17px;
       margin: 10px 0 10px 0;
     }
-    a {
+    button {
+      border: none;
       padding: 10px 40px;
       background-color: #fb9e2e;
       color: #fff;
     }
-    a:hover {
+    button:hover {
       transform: scale(1.02);
       box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
     }
-    a:active {
+    button:active {
       transform: scale(0.98);
       box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.24);
     }

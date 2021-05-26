@@ -19,7 +19,7 @@ const Login = () => {
           <input type="text" placeholder="E-mail" />
           <input type="password" placeholder="Senha" />
         </div>
-        <a onClick={handleLoginSubmit}>Login</a>
+        <button onClick={handleLoginSubmit}>Login</button>
       </div>
     </Container>
   );
