@@ -4,13 +4,13 @@ import { Switch } from "react-router-dom";
 import Route from "./Route";
 
 import Login from "../pages/Login";
-import Home from "../pages/Home";
+import DashBoard from "../pages/DashBoard";
 
 const Routes = () => {
   return (
     <Switch>
       <Route key="1" component={Login} exact path="/" />
-      <Route path="/home" component={Home} />
+      <Route path="/home" component={DashBoard} />
     </Switch>
   );
 };

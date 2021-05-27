@@ -6,10 +6,11 @@ export const Container = styled.div`
   background-color: #dadada;
   align-items: center;
   justify-content: center;
+  padding: 6% 0;
 
   div:first-child {
     background-color: #fff;
-    height: 80vh;
+    height: 100%; 
     padding: 100px;
     display: flex;
     flex-direction: column;
